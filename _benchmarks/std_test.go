@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package benchmarks
@@ -7,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kataras/pio"
+	"github.com/hidevopsio/pio"
 )
 
 func BenchmarkStdPrint(b *testing.B) {

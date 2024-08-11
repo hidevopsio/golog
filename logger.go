@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/pio"
+	"github.com/hidevopsio/pio"
 )
 
 // Handler is the signature type for logger's handler.
@@ -332,6 +332,7 @@ func (l *Logger) Install(logger ExternalLogger) {
 // it can be used only once per `golog#Logger` instance.
 //
 // Example Code:
+//
 //	import "log"
 //	myLogger := log.New(os.Stdout, "", 0)
 //	InstallStd(myLogger)

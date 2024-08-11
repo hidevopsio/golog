@@ -15,7 +15,7 @@ _golog_ is a simple, fast and easy-to-use level-based logger written entirely in
 * Focus on high performance and agile perspective of things
 * Easy API and a default package-level instance, i.e `golog#Fatalf/Errorf/Warnf/Infof/Debugf`
 * Fully compatible with the standard library
-* Thanks to the [pio library](https://github.com/kataras/pio) it supports any type of structure, gives you the ability to `Hijack` and `Handle` or `Intercept` the on-going logs too 
+* Thanks to the [pio library](https://github.com/hidevopsio/pio) it supports any type of structure, gives you the ability to `Hijack` and `Handle` or `Intercept` the on-going logs too 
 * Set or even Add unlimited number of output targets, `io.Writer`
 * Scan from any `io.Reader` and log to the defined output target(s)
 * Levels such as `fatal`,`error`, `warn`, `info`, `debug`, or `disable`
@@ -33,7 +33,7 @@ The only requirement is the Go Programming Language[*](https://golang.org).
 $ go get github.com/kataras/golog
 ```
 
-> golog is fairly built on top of the [pio library](https://github.com/kataras/pio), it has no more external dependencies.
+> golog is fairly built on top of the [pio library](https://github.com/hidevopsio/pio), it has no more external dependencies.
 
 ```go
 package main

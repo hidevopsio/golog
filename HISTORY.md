@@ -82,7 +82,7 @@ Example can be found [here](_examples/customize-levels/new-level/main.go).
 ## Sa 29 July 2017 | v0.0.4 & v0.0.5
 
 ### v0.0.4
-- Fix an issue occurred by previous chnages, which [pio](https://github.com/kataras/pio) appends a trailing new line.
+- Fix an issue occurred by previous chnages, which [pio](https://github.com/hidevopsio/pio) appends a trailing new line.
 
 - Add a new method `golog#NewLine` which can override the default line breaker chars "\n".
 
@@ -135,4 +135,4 @@ func main() {
 
 ## Th 27 July 2017 | v0.0.3
 
-Increase the logger's performance by reducing the use of buffers on the [pio library](https://github.com/kataras/pio)
+Increase the logger's performance by reducing the use of buffers on the [pio library](https://github.com/hidevopsio/pio)
